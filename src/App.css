@@ -1,0 +1,112 @@
+.haidercontainer{
+  display: flex;
+position: fixed;
+background-color:#242526;
+-webkit-box-shadow: 2px 13px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 13px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 13px 16px 0px rgba(0,0,0,0.75);
+margin: 0 ;
+z-index: 1;
+width: 100%;
+}
+.main{
+  margin: 120px 50px;
+
+  display:flex;
+  flex-direction: row;
+}
+.navsearch{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+
+}
+.inputsearch{
+  padding:0 100px;
+  border-radius: 4px;
+margin: 40px 0 40px 400px;
+}
+/* .serachbutton{
+ border-radius: 0 4px 4px 0;
+ background-color: white;
+ padding: 0 40px;
+
+ margin: 40px 0 ;
+} */
+.myForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+/* ul{
+  border: black solid 1px;
+  width:150px;
+  height: 200px;
+}    */
+.rating-filter-text{
+  color:gold;
+  background-color: red;
+}
+li{
+  list-style: none;
+}
+.listem{
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin :50px 10px
+}
+.imagess{
+  position: relative;
+}
+body{
+background-color: rgb(28, 30, 33);
+
+}
+.App{
+  display: flex;
+}
+.imgform{
+  padding: 70px 100px ;
+}
+
+.itemmms{
+  margin: 20px;
+  position: relative;
+}
+.ratingetoile{
+  color:white;
+  margin:50px ;
+ 
+}
+.etoillle{
+  position: absolute;
+  top: 0px;
+left: 223px;
+}
+.rating-vide{
+  background-color: red;
+}
+.title-movie{
+  text-align: center;
+  color: aliceblue;
+  margin : 0 auto;
+}
+.search-etoile{
+  color:red;
+  cursor: pointer;
+  
+ 
+}
+.rating{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.stars{
+  
+  
+}
